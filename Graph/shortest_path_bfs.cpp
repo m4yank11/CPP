@@ -6,7 +6,7 @@
 using namespace std;
 
 vector<list<int>> graph;
-int v; // no of vertices
+int v;
 unordered_set<int> visited;
 vector<vector<int>> result;
 
