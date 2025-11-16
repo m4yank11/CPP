@@ -17,7 +17,7 @@ void display(){
     for(int i = 0 ; i < graph.size(); i++){
         cout<<i<<" -> ";
         for(auto el : graph[i]){
-            cout<<"( " <<el.first<<" : "<<el.second<<" ) , ";
+            cout<<"(" <<el.first<<" : "<<el.second<<"), ";
         }
         cout<<'\n';
     }
